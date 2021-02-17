@@ -30,9 +30,9 @@ logo                     : "/assets/images/logo.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "taek-l-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -279,8 +279,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # 블로그 댓글 기능 true
-      share: true
+      comments: true # 블로그 댓글 기능 true
+      share: false
       related: true
 
   # _pages
@@ -292,5 +292,5 @@ defaults:
       author_profile: true
       read_time: false
       comments: false
-      share: true
+      share: false
       related: false
