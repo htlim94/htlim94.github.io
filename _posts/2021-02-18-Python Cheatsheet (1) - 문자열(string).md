@@ -1,6 +1,10 @@
 ---
 title:  "Python Cheatsheet (1) - 문자열(string)"
 excerpt: "본 포스트는 Python 언어의 기초개념과 문법, 주요 함수들을 요약하여 정리한 Cheatsheet 시리즈의 일환입니다."
+date: 2021-02-18
+lastmod: 2021-02-18
+changefreq: daily
+priority: 1.0
 
 categories:
   - Cheatsheet
