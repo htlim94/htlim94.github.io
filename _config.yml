@@ -15,17 +15,17 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "taek_l's Blog"
+locale                   : "en-US"
+title                    : "Say Hello to the Future"
 title_separator          : "-"
-subtitle                 : "DEMO"
-name                     : "Hyuntaek Lim"
-description              : "An amazing website."
+subtitle                 : "Venture, Robotics, Alcohol"
+name                     : "taek_l"
+description              : # "An amazing website."
 url                      : "https://taek-l.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "taek-l/taek-l.github.io"
 teaser                   : "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png"
+# logo                     : "/assets/images/logo.png"
 # masthead_title           : "masthead_title" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -96,9 +96,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hyuntaek Lim"
+  name             : "taek_l"
   avatar           : "/assets/images/bio-pic.jpg"
-  bio              : "**My awesome biography** constrained to a sentence or two goes here."
+  bio              : "**Petrichor** - the very scent of rain on dry earth"
   location         : "Seoul, South Korea"
   email            : "nxo1225@gmail.com"
   links:
@@ -282,6 +282,9 @@ defaults:
       comments: true # 블로그 댓글 기능 true
       share: false
       related: true
+      toc: true
+      toc_sticky: true
+      use_math: true
 
   # _pages
   - scope:
@@ -294,3 +297,4 @@ defaults:
       comments: false
       share: false
       related: false
+      use_math: true
